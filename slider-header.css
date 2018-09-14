@@ -1,0 +1,36 @@
+.slider-box{
+  position:relative;
+  width: 1200px;
+  /*height:100%;*/
+  overflow:hidden;
+  margin: 0 auto;
+}
+.slider{
+  position:relative;
+  width: 10000px;
+  height: 350px;
+
+}
+.slider img{
+  width: 1200px;
+  height: 350px;
+
+  float:left;
+}
+.slider-box .prev, .slider-box .next{
+  position:absolute;
+  top:144px;
+  display:block;
+  width:40px;
+  height:40px;
+  border-radius: 20px;
+  cursor:pointer;
+}
+.slider-box .prev{
+  left:50px;
+  background:url(img/left-btn.jpg) no-repeat 0 0;
+}
+.slider-box .next{
+  right:50px;
+  background:url(img/right-btn.jpg) no-repeat 0 0;
+}
